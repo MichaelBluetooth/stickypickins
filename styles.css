@@ -10,106 +10,150 @@
 }
 
 .va {
-    display: flex;
-    align-items: center;
-  }
-  
-  .hero,
-  .cta {
-    background: url(data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22noise%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.4296875%200%22%20%2F%3E%3C%2Ffilter%3E%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E), linear-gradient(52deg, #42475C 0%, #20222E 71%);
-  }
-  
-  .cta {
-    height: 500px;
-    border-top: 10px solid turquoise;
-  }
-  
-  footer {
-    color: white;
-    background: rgb(14, 14, 14) !important;
-  }
-  
-  footer strong {
-    color: turquoise;
-  }
-  
-  footer a {
-    color: turquoise;
-  }
-  
-  .title {
-    color: white;
-    font-weight: 800;
-    font-size: 5rem !important;
-    /* font-size: 150px !important; */
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: 'CardenioModern';
-    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
-  }
-  
-  .subtitle {
-    color: white;
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
-  }
-  
-  hr.content-divider {
-    max-width: 75px;
-    height: 5px;
-  }
-  
-  #parallax-1 {
-    /* background: url(https://source.unsplash.com/featured/?bees); */
-    background: url(./bee2.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid coral;
-  }
-  
-  #parallax-1 hr {
-    background: coral;
-  }
-  
-  #parallax-2 {
-    /* background: url(https://source.unsplash.com/featured/?mapletree); */
-    background: url(./bee4.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid yellow;
-  }
-  
-  #parallax-2 hr {
-    background: yellow;
-  }
-  
-  #parallax-3 {
-    /* background: url(https://source.unsplash.com/featured/?mapletree); */
-    background: url(./bee1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 10px solid hotpink;
-  }
-  
-  #parallax-3 hr {
-    background: hotpink;
-  }
-  
-  .label {
-    color: white;
-  }
-  
-  input {
-    background: transparent !important;
-    border: 1px solid turquoise !important;
-    color: white !important;
-  }
-  
-  input::placeholder {
-    color: white !important;
-  }
+  display: flex;
+  align-items: center;
+}
+
+.hero,
+.cta {
+  background: url(data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22noise%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.4296875%200%22%20%2F%3E%3C%2Ffilter%3E%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E),
+    linear-gradient(52deg, #42475c 0%, #20222e 71%);
+}
+
+.cta {
+  height: 500px;
+  border-top: 10px solid turquoise;
+}
+
+footer {
+  color: white;
+  background: rgb(14, 14, 14) !important;
+}
+
+footer strong {
+  color: turquoise;
+}
+
+footer a {
+  color: turquoise;
+}
+
+.title {
+  color: white;
+  font-weight: 800;
+  font-size: 5rem !important;
+  /* font-size: 150px !important; */
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "CardenioModern";
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.subtitle {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+#parallax-1 {
+  /* background: url(https://source.unsplash.com/featured/?bees); */
+  background: url(./bee2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid coral;
+}
+
+#parallax-1 hr {
+  background: coral;
+}
+
+#parallax-2 {
+  /* background: url(https://source.unsplash.com/featured/?snowtree); */
+  background: url(./bee4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid yellow;
+}
+
+#parallax-2 hr {
+  background: yellow;
+}
+
+#parallax-3 {
+  /* background: url(https://source.unsplash.com/featured/?mapletree); */
+  background: url(./bee1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid hotpink;
+}
+
+
+#parallax-3 hr {
+  background: hotpink;
+}
+
+#parallax-4 {
+  background: url(./bee3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid cornflowerblue;
+}
+
+#parallax-4 hr {
+  background: cornflowerblue;
+}
+
+.label {
+  color: white;
+}
+
+input {
+  background: transparent !important;
+  border: 1px solid turquoise !important;
+  color: white !important;
+}
+
+input::placeholder {
+  color: white !important;
+}
+
+.darker-bg {
+  background-color: #20222e;
+  /* background: url(data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22noise%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.4296875%200%22%20%2F%3E%3C%2Ffilter%3E%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E),
+    linear-gradient(52deg, #42475c 0%, #20222e 71%); */
+}
+
+.dark-bg {
+  background-color: #42475c;
+}
+
+
+.title-sm {
+  color: white;
+  font-weight: 800;
+  /* font-size: 2rem !important; */
+  font-size: 25px !important;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "CardenioModern";
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.navbar-item {
+  color: white !important;
+}
+
+.navbar-end > .navbar-item:hover {
+  background-color: #42475c !important;
+}

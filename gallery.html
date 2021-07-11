@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sticky Pickins</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="./buttons.js"></script>
+</head>
+
+<body>
+    <nav class="navbar darker-bg" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="./index.html">
+                <!-- <h6 class="title is-6">Title 6</h6> -->
+                <span class="title-sm">Stick Pickins</span>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar"
+                onclick="toggleMenu()">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbar" class="navbar-menu darker-bg">
+            <div class="navbar-end">
+                <a class="navbar-item" href="./index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="./about.html">
+                    About
+                </a>
+
+                <a class="navbar-item" href="./gallery.html">
+                    Gallery
+                </a>
+
+                <a class="navbar-item" href="./about.html">
+                    Shop
+                </a>
+            </div>
+    </nav>
+
+    <section id="parallax-5" class="hero is-large">
+        <div class="container mt-4">
+            <h1 class="title is-1">
+                Gallery
+            </h1>
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <figure class="tile is-child">
+                                <img src="images/gallery/many_bees.jpg">
+                            </figure>
+                            <figure class="tile is-child">
+                                <img src="images/gallery/painting_bee_box.jpg">
+                            </figure>
+                            <figure class="tile is-child">
+                                <img src="images/gallery/painting_boxes.jpg">
+                            </figure>
+                        </div>
+                        <div class="tile is-parent">
+                            <figure class="tile is-child">
+                                <img src="images/gallery/bees_bees.jpg">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <figure class="tile is-child">
+                            <img src="images/gallery/bee1.jpg">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="tile is-vertical">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <figure class="tile is-child">
+                                <img src="images/gallery/making_honey.jpg">
+                            </figure>
+                            <figure class="tile is-child">
+                                <img src="images/gallery/making_honey2.jpg">
+                            </figure>
+                            <figure class="tile is-child">
+                                <img src="images/gallery/swarm1.jpg">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <figure class="tile is-child">
+                                <img src="images/gallery/bee_hive_painted.jpg">
+                            </figure>
+                            <figure class="tile is-child">
+                                <img src="images/gallery/colleen_frame.jpg">
+                            </figure>
+                            <figure class="tile is-child">
+                                <img src="images/gallery/matt_bee_hive.jpg">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent">
+                            <figure class="tile is-child">
+                                <img src="images/gallery/honey_frame.jpg">
+                            </figure>
+                        </div>
+                        <div class="tile is-parent is-vertical">
+                            <figure class="tile is-child">
+                                <img src="images/gallery/honey_extractor_colleen.jpg">
+                            </figure>
+                            <figure class="tile is-child">
+                                <img src="images/gallery/honey_for_sale.jpg">
+                            </figure>
+                        </div>                        
+                    </div>
+                    <div class="tile is-parent">
+                        <figure class="tile is-child">
+                            <img src="images/gallery/our_forest.jpg">
+                        </figure>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Sticky Pickins Farm</strong> by Matthew Bischoff and Colleen Muldowney. Save the bees!
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
